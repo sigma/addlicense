@@ -1,0 +1,12 @@
+name: "addlicense"
+description: "check that the source files have proper license notices"
+author: "google"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - "-check"
+    - "."
+branding:
+  icon: "check-circle"
+  color: "green"
