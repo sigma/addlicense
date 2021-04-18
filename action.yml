@@ -3,7 +3,7 @@ description: "check that the source files have proper license notices"
 author: "google"
 runs:
   using: "docker"
-  image: "Dockerfile"
+  image: "docker://ghcr.io/sigma/addlicense:v1"
   args:
     - "-check"
     - "."
