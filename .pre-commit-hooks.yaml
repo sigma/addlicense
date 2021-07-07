@@ -1,0 +1,6 @@
+- id: addlicense
+  name: addlicense
+  description: "Addlicense: copyright notice enforcer"
+  entry: addlicense -check
+  language: golang
+  require_serial: true
